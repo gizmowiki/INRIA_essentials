@@ -1,0 +1,6 @@
+from loadData import loadData
+people=loadData("/user/rpandey/home/inria/dataset/mensa_seq0_1.1/rgb")
+people.getSize()
+people.createReflectedDataset()
+
+people.computeHOGpeopleDataset("/user/rpandey/home/inria/dataset/mensa_seq0_1.1/track_annotations")
